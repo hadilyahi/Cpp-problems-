@@ -15,6 +15,10 @@ string reverseString (string str){
     }
     return reversed;
 }
+// problem 3 : 
+string boolean_to_string(bool b){
+    return b == true ? "true" : "false";
+  }
 int main ()
 {
     /////// problem 1 :
@@ -23,10 +27,12 @@ int main ()
     //   cin >> number ;
     //   cout << "The number is : " << even_or_odd (number) << endl;
     /////// Problem 2 : 
-    string str ;
-    cout << "enter string " ;
-    cin >> str ;
-    cout << " The string after Reversed : " << reverseString(str) << endl ;
+    // string str ;
+    // cout << "enter string " ;
+    // cin >> str ;
+    // cout << " The string after Reversed : " << reverseString(str) << endl ;
+    
+
 
 
 
