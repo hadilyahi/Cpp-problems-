@@ -25,18 +25,27 @@ float centuryFromYear(float year){
     return std::ceil(year / 100); 
 
 }
+// problem 3 :
+bool isDivisible(int n , int x ,int y){
+    // if( n % x == 0 && n % y == 0)
+    // {
+    //   return true ;
+    // }
+    // return false ;
+    return  n % x == 0 && n % y == 0 ;
+}
 int main (){
-    // problem 1 :
+    //////////// problem 1 :
     // int number ;
     // cout << "enter number : ";
     // cin >> number ;
     // cout << "the result is : " << simpleMultiplication(number) << endl;
-    // problem 2 : 
-    float year ;
-    cout << " enter A year : ";
-    cin >> year ;
-    cout << "the year is a century form year : "<< centuryFromYear(year) << endl;
-
+    //////////// problem 2 : 
+    // float year ;
+    // cout << " enter A year : ";
+    // cin >> year ;
+    // cout << "the year is a century form year : "<< centuryFromYear(year) << endl;
+    
 
     return 0 ;
 }
